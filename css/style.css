@@ -1,0 +1,112 @@
+*{
+    text-transform: capitalize;
+}
+
+.header {
+    height: 100px;
+}
+
+.headDiv {
+    float: right;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.headDiv ul li {
+    float: right;
+    padding: 20px;
+    list-style: none;
+}
+
+.headDiv ul li a {
+    text-decoration: none;
+    color: white; 
+}
+
+button{
+    padding: 10px 10px;
+    border-radius: 30px;
+    margin-top: 10px;
+    border: none;
+
+}
+
+button:hover{
+    background-color: greenyellow;
+    transition: 5s else;
+    cursor: pointer;
+   
+
+}
+
+
+.login{
+   width: 300px;
+   margin-left: 42%;
+   margin-top: 100px;
+   backdrop-filter: blur(30px);
+
+   
+}
+
+
+.enter{
+    width: 180px;
+   margin: 30px 50px;
+}
+
+.deatils{
+    justify-content: center;
+    padding-left: 55px;
+}
+
+input{
+    border-radius: 10px;
+    height: 20px;
+    border: none none solid none;
+    background-color: initial;
+    
+}
+
+
+input:hover{
+    color:white;
+    
+}
+
+
+.wrapper{
+    background: url(https://img.freepik.com/free-vector/gradient-technological-background_23-2148884155.jpg?w=740&t=st=1711773552~exp=1711774152~hmac=f9e7677b2003dae90466840d6f7bd0053d7832a4f6ddcdbde29a836bbd9477b5);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    
+}
+
+
+header div ul li a{
+    color: white;
+}
+
+header div ul li a:hover{
+    color: aqua;
+    transition: 3s ease;
+}
+
+input:focus{
+    background: gold;
+}
+
+table th,td{
+    height: 80px;
+}
+
+div img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
